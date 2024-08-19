@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Guide #3</title>
+</head>
+<body>
+    <h1>Activity Guide #3</h1>
+    A car is traveling at 60 miles per hour. <br>
+    The distance the car will travel in 5 hours: <p id="output1"></p> <br> 
+    The distance the car will travel in 8 hours: <p id="output2"></p> <br>
+    The distance the car will travel in 12 hours: <p id="output3"></p> <br>
+</body>
+    <script>
+        let distance1 = 60*5
+        let distance2 = 60*8
+        let distance3 = 60*12
+        let x =`${distance1} miles`
+        let y =`${distance2} miles`
+        let z =`${distance3} miles`
+        document.getElementById("output1").innerHTML=x
+        document.getElementById("output2").innerHTML=y
+        document.getElementById("output3").innerHTML=z
+    </script>
+</html>

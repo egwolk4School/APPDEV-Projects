@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Guide #6</title>
+</head>
+<body>
+    <h1>Activity Guide #6</h1>
+    number of cookies you ate: <input type="text" name="cookie" id="cookie"><br>
+    <button type="submit" id="btn">Submit</button>
+    <p id="output"></p>
+</body>
+<script>
+    const btn1 = document.getElementById("btn")
+    btn1.addEventListener("click", ()=>{
+        let cookie = document.getElementById("cookie").value
+        let calories = 300/(40/10)
+        let total = cookie*calories
+        let x =`total calories consumed in ${cookie} cookies: ${total}`
+        document.getElementById("output").innerHTML=x
+    })
+</script>
+</html>

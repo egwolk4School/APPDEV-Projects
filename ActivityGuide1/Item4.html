@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Guide #4</title>
+</head>
+<body>
+    <h1>Activity Guide #4</h1>
+    miles driven: <input type="text" name="miles" id="miles"><br>
+    galons of gas used: <input type="text" name="gas" id="gas"><br>
+    <button type="submit" id="btn">submit</button>
+    <p id="output"></p>
+</body>
+<script>
+    const btn = document.getElementById("btn")
+    btn.addEventListener("click", ()=>{
+        let drive = document.getElementById("miles").value
+        let gas = document.getElementById("gas").value
+        let mpg = drive/gas
+        let x =`MPG: ${mpg}`
+        document.getElementById("output").innerHTML=x
+    })
+</script>
+</html>

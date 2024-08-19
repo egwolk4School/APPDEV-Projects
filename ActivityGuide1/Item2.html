@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Guide #2</title>
+</head>
+<body>
+    <h1>Activity Guide #2</h1>
+    Projected amount of total sales: <input type="text" name="amt" id="amt"> <br>
+    <button type="submit" id="btn">Submit</button>
+    <p id="output"></p>
+</body>
+<script>
+    const btn1 = document.getElementById("btn")
+    btn1.addEventListener("click", ()=>{
+        let amt = document.getElementById("amt").value
+        let profit = amt*.23
+        let x =`profit: ${profit}`
+        document.getElementById("output").innerHTML=x
+    })
+</script>
+</html>

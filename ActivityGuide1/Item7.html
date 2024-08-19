@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Guide #7</title>
+</head>
+<body>
+    <h1>Activity Guide #7</h1>
+    Number of Females: <input type="text" name="fem" id="fem"><br>
+    Number of Males: <input type="text" name="male" id="male"><br>
+    <button type="submit" id="btn">Submit</button>
+    <p id="output"></p>
+    <p id="output2"></p>
+</body>
+<script>
+    const btn1 = document.getElementById("btn")
+    btn1.addEventListener("click", ()=>{
+        let fem = document.getElementById("fem").value
+        let male = document.getElementById("male").value
+        let total = parseInt(fem) + parseInt(male)
+        let femPer = fem/total*100
+        let malePer = male/total*100
+        let x =`percentage of females: ${femPer}%`
+        let y =`percentage of males: ${malePer}%`
+        document.getElementById("output").innerHTML=x
+        document.getElementById("output2").innerHTML=y
+    })
+</script>
+</html>

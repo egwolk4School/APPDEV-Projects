@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Guide #5</title>
+</head>
+<body>
+    <h1>Activity Guide #5</h1>
+    Enter temperature(celsius): <input type="text" name="temp" id="temp"><br>
+    <button type="submit" id="btn">Submit</button>
+    <p id="output"></p>
+</body>
+<script>
+    const btn1 = document.getElementById("btn")
+    btn1.addEventListener("click", ()=>{
+        let temp = document.getElementById("temp").value
+        let farenheit = (9/5)*temp+32
+        let x =`temperature in farenheit: ${farenheit}`
+        document.getElementById("output").innerHTML=x
+    })
+</script>
+</html>
