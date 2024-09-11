@@ -1,6 +1,10 @@
 nav {
-    background: var(--clr-white);
+    background: #2E236C;
     box-shadow: var(--light-shadow);
+
+  }
+  .headerTitle{
+    color: #3DC2EC;
   }
   .nav-header {
     display: flex;
@@ -10,21 +14,21 @@ nav {
   }
   .nav-toggle {
     font-size: 1.5rem;
-    color: var(--clr-primary-5);
+    color: #3DC2EC;
     background: transparent;
     border-color: transparent;
     transition: var(--transition);
     cursor: pointer;
   }
   .nav-toggle:hover {
-    color: var(--clr-primary-1);
+    color: #2993b3;
     transform: rotate(90deg);
   }
   .logo {
     height: 40px;
   }
   .links a {
-    color: var(--clr-grey-3);
+    color: #3DC2EC;
     font-size: 1rem;
     text-transform: capitalize;
     letter-spacing: var(--spacing);
@@ -34,7 +38,7 @@ nav {
   }
   .links a:hover {
     background: var(--clr-primary-8);
-    color: var(--clr-primary-5);
+    color: #2E236C;
     padding-left: 1.5rem;
   }
   .social-icons {
@@ -70,10 +74,12 @@ nav {
     .links a {
       padding: 0;
       margin: 0 0.5rem;
+      color: #3DC2EC;
     }
     .links a:hover {
       padding: 0;
       background: transparent;
+      color: #2993b3;
     }
     .social-icons {
       display: flex;
@@ -81,14 +87,12 @@ nav {
     }
     .social-icons a {
       margin: 0 0.5rem;
-      color: var(--clr-primary-5);
+      color: #3DC2EC;
       transition: var(--transition);
     }
     .social-icons a:hover {
-      color: var(--clr-primary-7);
+      color: #2993b3;
     }
-    .social-icons a i svg{
-        margin: 5px;
-    }
+
   }
   

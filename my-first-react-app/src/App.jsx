@@ -10,6 +10,7 @@ export default function App(){
     <Body name="Stephen" food="bibimbap" isHealthy={true} age={21}/>
     <Body name="Gerald" food="Torta" isHealthy={true} age={2200000000}/>
     <Body name="Szen" food="Mango" isHealthy={true} age={19}/>
+    <Body name="William" food="tide" isHealthy={true} age={19}/>
     <Footer />
     </>
   )

@@ -2,7 +2,7 @@
     font-family: Arial, sans-serif;
     font-size: 1em;
     padding: 10px;
-    /* border: 1px solid hsla(0, 0%, 50%, 0.8); */
+    border: #3DC2EC solid .1em;
     box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.5);
     border-radius: 5px;
     margin-bottom: 20px;
