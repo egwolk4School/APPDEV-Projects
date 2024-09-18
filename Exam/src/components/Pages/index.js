@@ -1,0 +1,7 @@
+export * from './Home/Home'
+export * from './About/About'
+export * from './Use/Use'
+export * from './Troubleshooting/Troubleshooting'
+export * from './Care/Care'
+export * from './Setup/Setup'
+export * from './Support/Support'
