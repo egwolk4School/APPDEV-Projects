@@ -1,6 +1,9 @@
-import React,{useState} from 'react'
+import React,{useState, useEffect} from 'react'
 import './Seneca.css'
 export const Seneca = () => {
+    useEffect(()=>{
+        document.title='Stoic Quotes | Seneca'
+      },[])
     const [quote, quoteSet] = useState(0)
     const quotes = [
         "Sometimes even to live is an act of courage.", 

@@ -1,6 +1,9 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './Home.css'
 export const Home = () => {
+  useEffect(()=>{
+    document.title='Stoic Quotes | Home'
+  },[])
   return (
     <>
         <div className="container">

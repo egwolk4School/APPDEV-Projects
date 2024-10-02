@@ -21,7 +21,7 @@ export const Header = () => {
                 <NavLink to="/Aurelius">Aurelius</NavLink>
             </li>
             <li>
-                <NavLink to="/Diogenes">Diogense</NavLink>
+                <NavLink to="/Diogenes">Diogenes</NavLink>
             </li>
         </ul>
     </nav>

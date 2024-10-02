@@ -1,6 +1,9 @@
-import React,{useState} from 'react'
+import React,{useState, useEffect} from 'react'
 import './Diogenes.css'
 export const Diogenes = () => {
+    useEffect(()=>{
+        document.title='Stoic Quotes | Diogenes'
+      },[])
     const [quote, quoteSet] = useState(0)
     const quotes = [
         "It is not that I am mad, it is only that my head is different from yours.", 

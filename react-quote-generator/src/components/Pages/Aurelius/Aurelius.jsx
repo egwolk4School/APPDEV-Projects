@@ -1,6 +1,9 @@
-import React,{useState} from 'react'
+import React,{useState, useEffect} from 'react'
 import './Aurelius.css'
 export const Aurelius = () => {
+    useEffect(()=>{
+      document.title='Stoic Quotes | Aurelius'
+    },[])
     const [quote, quoteSet] = useState(0)
     const quotes = [
       "The soul becomes dyed with the colour of its thoughts.", 
