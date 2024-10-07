@@ -14,12 +14,16 @@ function App() {
     {id:2, name:"ice cream", color:"blue"},
     {id:3, name:"pie", color:"green"},
   ]
+  fruits.sort((a,b)=>b.name.localeCompare(a.name))
+  // fruits.sort((a,b)=>a.name.localeCompare(b.name))
+  const redFruits = fruits.filter(fruit=>fruit.color==="red")
 
   return (
     <>
       <Header/>
       {/* {fruits.length>0?<ListOfFruits items={fruits} category="My Favorite Fruits"/>:(<p>I do not like fruits</p>)} */}
       {fruits.length>0&&<ListOfFruits items={fruits} category="My Favorite Fruits"/>}
+      {fruits.length>0&&<ListOfFruits items={redFruits} category="Red Fruits"/>}
       {desserts.length>0&&<ListOfFruits items={desserts} category="My Favorite Desserts"/>}
       <Footer/>
     </>
