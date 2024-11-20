@@ -1,0 +1,30 @@
+.section .container{
+    display: flex;
+    /* background-color: blue; */
+    justify-content: space-around;
+    width: 80%;
+    flex-wrap: wrap;
+    
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    /* background-color: aqua; */
+    height: calc(100vh - 3rem);
+    width: 100%;
+}
+ .gamelist{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 300px;
+    height: 250px;
+}
+.gamecard{
+margin-bottom: 20px;
+}
+.review-form{
+    margin-bottom: 20px;
+}
+
