@@ -3,6 +3,7 @@
     /* background-color: rebeccapurple; */
     width: 80%;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .container{
     width: 100%;
@@ -12,3 +13,16 @@
     /* background-color: blue; */
     height: calc(100vh - 3rem);
 }
+.studentlist{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 300px;
+    height: 250px;
+}
+.card-container{
+    margin-bottom: 20px;
+}
+.field-container{
+    margin-bottom: 20px;
+}
+
