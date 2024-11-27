@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    min-height: calc(100vh - 3.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section{
+    margin:1rem 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    background-color: cadetblue;
+    padding: 5px 5px 0px 5px;
+    border-radius: 50%;
+    display: flex;
+    overflow: hidden;
+
+}
+.user{
+    margin-bottom:0px ;
+    padding: 0;
+    font-size: 1.5rem;
+    color: black;
+}
+/* Nav */
+nav ul li a.active::after {
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+nav .title{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+nav .title .logo{
+    color: cadetblue;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: .5rem;
+    margin: 0 .5rem;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    left: 0;
+    background-color: cadetblue;
+    display: block;
+    pointer-events: none;
+    transition: all 0.3s linear;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+nav .menu{
+    position: absolute;
+    top: .75rem;
+    right:.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: none;
+}
+nav .menu .bars{
+    color: white;
+    font-size: 2.25rem;
+    width: 100%;
+}
+
+@media (max-width:700px){
+    .active{
+        background-color: cadetblue;
+    }
+    nav .menu{
+        display: flex;
+        transition: all .3s linear;
+    }
+
+    nav .menu:hover{
+        transform: rotate(90deg);
+    }
+    nav {
+        flex-direction: column;
+        align-items: start;
+    }
+    nav ul{
+        flex-direction: column;
+        overflow: hidden;
+        width: 100%;
+        margin-bottom: .25rem;
+        max-height: 0;
+        transition: all .3s;
+    }
+    nav ul.open{
+        max-height: 15rem;
+        width: 100%;
+    }
+    nav ul li {
+        text-align: center;
+    }
+    nav ul li a {
+        margin: .2rem .5rem;
+        border-radius: .5rem;
+    }
+    nav ul li a::after{
+        opacity: 0;
+    }
+    nav ul li a:hover{
+        background-color: rgb(71, 126, 128);
+    }
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    padding: .5rem;
+}
+footer p{
+    color: white;
+    margin: .5rem 0rem;
+}
+
+/* Game */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 5%;
+    width: 100%;
+}
+.containter p{
+    text-indent: 2%;
+    text-justify: inter-word;
+    text-align: justify;
+}
+.container h1{
+    margin: .5rem 0;
+}
+.container img{
+    max-width: 100%; 
+    height: auto;
+    /* margin: 0 50%; */
+    margin-bottom: 20px;
+}
+
+/* Games All */
+.games-container {
+    width: 100%;
+    text-align: center;
+}
+.gamesList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 150px);
+    gap:25px;
+    justify-content: center;
+    /* background-color: aqua; */
+    margin:0px 5rem;
+}
+
+.gamesList a{
+    text-decoration: none;
+    color: black;
+}
+
+.gamesList a li{
+    list-style: none;
+}
+
+/* reviews */
+.reviews{
+    width: 80%;
+}
+
+.reviews li a{
+    text-decoration: none;
+    color: black;
+}
+.reviews li:not(:last-child){
+    border-bottom: .1rem solid black;
+}
+.reviews li{
+    list-style: none;
+    padding-top: .5rem ;
+}
+
+.reviews li .users{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.reviews  li .review-snippet{
+    margin: 0px 0px .2rem 2.5rem;
+}
+
+/* review */
+.review-container{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 20rem;
+    padding: 3.5rem;
+    border-radius: 15px;
+}
+.review-container .users{
+    display: flex;
+    align-items: center;
+}
+.review-container .stars{
+    color: cadetblue;
+}
+
+.review-container .review {
+    margin:1rem ;
+}
+.review-container .review .comment {
+    margin-left:2.5rem ;
+}

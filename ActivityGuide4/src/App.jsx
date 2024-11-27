@@ -1,29 +1,13 @@
-import { Route, Routes, Link } from 'react-router-dom'
+import { Route, Routes} from 'react-router-dom'
 import './App.css'
-import Home from './Components/Home'
-import About from './Components/About'
-import NotFound from './Components/NotFound'
-import Games from './Components/Games'
-import Game from './Components/Game'
+import {Home,About,NotFound,Games,Game, Nav, Review, Footer} from './Components'
 
 function App() {
 
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to='/'>Home</Link>
-          </li>
-          <li>
-            <Link to='/about'>About</Link>
-          </li>
-          <li>
-            <Link to='/games'>Games</Link>
-          </li>
-        </ul>
-      </nav>
-      {/* Routes */}
+      <Nav/>
+      <main>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
@@ -31,8 +15,11 @@ function App() {
         <Route path='/games'>
           <Route index element={<Games/>}/>
           <Route path=':gameId' element={<Game/>}/>
+          <Route path="/games/:gameId/reviews/:reviewId" element={<Review />} />
         </Route>
       </Routes>
+      </main>
+      <Footer/>
     </>
   )
 }
