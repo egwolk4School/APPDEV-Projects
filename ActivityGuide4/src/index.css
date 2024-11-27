@@ -164,7 +164,7 @@ footer p{
     align-items: center;
     text-align: center;
     margin: 0 5%;
-    width: 100%;
+    width: 50%;
 }
 .containter p{
     text-indent: 2%;
@@ -244,7 +244,7 @@ footer p{
     display: flex;
     align-items: center;
 }
-.review-container .stars{
+.stars{
     color: cadetblue;
 }
 
@@ -253,4 +253,17 @@ footer p{
 }
 .review-container .review .comment {
     margin-left:2.5rem ;
+}
+
+/* about */
+.about{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 20rem;
+    padding: 3.5rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

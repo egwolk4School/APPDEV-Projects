@@ -10,7 +10,6 @@ import hollowknightposter from './hollowknightposter.png'
 import deadcellsposter from './deadcellsposter.jpg'
 import moonscarsposter from './moonscarsposter.jpg'
 
-import user from './user.png'
 export {
     KatanaLogo,
     BlasphemousLogo,
@@ -21,6 +20,5 @@ export {
     blasphemousposter,
     hollowknightposter,
     deadcellsposter,
-    moonscarsposter,
-    user
+    moonscarsposter
   };
