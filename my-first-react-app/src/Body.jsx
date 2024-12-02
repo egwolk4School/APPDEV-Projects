@@ -10,7 +10,6 @@ export default function Body(props){//props is to pass info to functional compon
         </div>
     )
 }
-
 Body.defaultProps ={
     name:"Guest", 
     food:"unknown",
