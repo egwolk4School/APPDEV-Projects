@@ -1,0 +1,102 @@
+.product-container{
+    width: 90%;
+    height: 80vh;
+    color: white;
+    background-color: black;
+    border: solid .1rem rgb(var(--active-color));
+    display: flex;
+    overflow: hidden;
+}
+.product-container .image-container{
+    height: 100%;
+    background-color: rgb(68, 64, 64);
+    width: 50%;
+    display: flex;
+    overflow: hidden;
+    border-right: solid .1rem rgb(var(--active-color));
+}
+
+.product-container  img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.product-container .text-data-container {
+    width: 50%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.product-container .text-data-container .mini-nav{
+    width: 100%;
+    border-bottom: rgb(var(--active-color)) solid .1px;
+    padding: 1rem;
+
+}
+.product-container .text-data-container .mini-nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product-container .text-data-container .mini-nav ul a li{
+    list-style: none;
+    color: rgb(var(--active-color));
+    height: 100%;
+}
+.product-container .text-data-container .mini-nav ul a.active li{
+    color: white;
+    background-color: rgb(var(--active-color));
+    padding: .3rem;
+}
+
+.product-container .text-data-container .main-text-content{
+    padding: 15px;
+    margin-top: 15px;
+}
+.product-container .text-data-container .main-text-content h4{
+    color: rgb(var(--active-color));
+}
+
+.product-container .text-data-container .main-text-content .text-content .text-section{
+    
+    margin: 2rem 0;
+}
+.product-container .text-data-container .main-text-content .text-content .text-section h4{
+    color: rgb(var(--active-color));
+}
+.product-container .text-data-container .main-text-content .text-content .text-section ul li{
+    list-style: none;
+}
+
+.product-container .text-data-container .main-text-content .user-in form{
+    width: 100%;
+    /* background-color: aqua; */
+    
+}
+.product-container .text-data-container .main-text-content .user-in form .ins, .ins2{
+    display: flex;
+}
+.product-container .text-data-container .main-text-content ul li{
+    list-style: none;
+}
+
+.product-container .text-data-container .main-text-content .user-in input, textarea{
+    width: 100%;
+    margin: 1rem 1rem;
+    height: 50px;
+}
+.product-container .text-data-container .main-text-content .user-in form .ins2{
+    width: 100%;
+    display: flex;
+    margin: 0 1rem;
+    justify-content: space-around;
+}
+
+.product-container .text-data-container .main-text-content .user-in form .ins2 button{
+    background-color: rgb(var(--active-color));
+    color: black;
+    width: 20%;
+
+}

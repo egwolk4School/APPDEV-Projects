@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "img": "https://raw.githubusercontent.com/egwolk4School/KeyboardImages/main/pfp1.jpg",
+        "name": "Erin Covacha",
+        "job": "Full-Stack Developer",
+        "email": "20226410@s.ubaguio.edu",
+        "phone": "09163268691",
+        "linkedin": "HEHEHEH im shy, and i like cereal.",
+        "exp": [
+            {"work": "Student Assistant", "duration": "2023 - Present", "workplace": "University of Baguio"},
+            {"work": "KeyStaxx Dev", "duration": "2024 - 2024", "workplace": "APPDEV1"},
+            {"work": "Professional Tambay", "duration": "2003 - Present", "workplace": "Bahay"}
+        ],
+        "educ": [
+            {"school": "University of Baguio", "duration": "2022 - Present", "field": "Bachelor of Science in Computer Science"},
+            {"school": "Baguio National Science High School", "duration": "2020 - 2022", "field": "STEM"},
+            {"school": "Northwestern University", "duration": "2016 - 2020", "field": "High School"}
+        ],
+        "technical-skills": [
+            {"skill": "Product Design", "percentage": "90"},
+            {"skill": "Product Development", "percentage": "85"},
+            {"skill": "Prototyping", "percentage": "80"},
+            {"skill": "3D Printing", "percentage": "75"},
+            {"skill": "Engineering", "percentage": "70"},
+            {"skill": "Agile Project Management", "percentage": "85"},
+            {"skill": "Design Thinking", "percentage": "80"}
+        ],
+        "non-technical-skills": [
+            {"skill": "Leadership", "percentage": "95"},
+            {"skill": "Branding", "percentage": "90"},
+            {"skill": "Supplier Negotiation", "percentage": "85"},
+            {"skill": "Public Speaking", "percentage": "80"}
+        ],
+        "interests": [
+            {"label":"Keyboards","icon":"<FaKeyboard />"},
+            {"label":"Architecture","icon":"<FaBuilding />"},
+            {"label":"Cats","icon":"<FaCat />"},
+            {"label":"Photography","icon":"<FaCamera />"},
+            {"label":"Hiking","icon":"<FaMountain />"}
+        ],
+        "address": "SECREST, AYWKO MADOXX"
+    },
+    {
+        "id": 2,
+        "img": "https://raw.githubusercontent.com/egwolk4School/KeyboardImages/main/pfp2.jpg",
+        "name": "Stephen Robles",
+        "job": "Full-Stack Developer",
+        "email": "2016521@s.ubaguio.edu",
+        "phone": "09083258711",
+        "linkedin": "linkedin.com/in/tsumuluvr",
+        "summary": "Creative and data-driven marketing professional with expertise in branding, social media management, and content creation. Adept at driving engagement and increasing visibility for niche products in competitive markets.",
+        "exp": [
+            {"work": "Full-Stack Developer", "duration": "2024 - Present", "workplace": "Keystaxx"},
+            {"work": "Front End Development", "duration": "2022", "workplace": "INTRCS1/HUMCOM1"},
+            {"work": "Backend Development", "duration": "2022", "workplace": "PROGIT1/PROGIT"}
+        ],
+        "educ": [
+            {"school": "University of Baguio", "duration": "2022 - Present", "field": "Bachelor of Science in Computer Science"},
+            {"school": "University of Baguio Senior Science High School", "duration": "2020 - 2022", "field": "Senior High"},
+            {"school": "University of Baguio Science High School", "duration": "2016 - 2020", "field": "Junior High"}
+        ],
+        "technical-skills": [
+            {"skill": "Social Media Management", "percentage": "85"},
+            {"skill": "SEO and Analytics", "percentage": "80"},
+            {"skill": "Video Editing", "percentage": "75"},
+            {"skill": "Email Marketing", "percentage": "80"},
+            {"skill": "Graphic Design", "percentage": "75"},
+            {"skill": "A/B Testing", "percentage": "70"},
+            {"skill": "CMS", "percentage": "85"}
+        ],
+        "non-technical-skills": [
+            {"skill": "Content Creation", "percentage": "90"},
+            {"skill": "Campaign Strategy", "percentage": "85"},
+            {"skill": "Relationship Building", "percentage": "80"},
+            {"skill": "Critical Thinking", "percentage": "80"}
+        ],
+        "interests": [
+            {"label":"Photography","icon":"<FaCamera />"},
+            {"label":"Fashion","icon":"<FaTshirt />"},
+            {"label":"Gaming","icon":"<FaGamepad />"},
+            {"label":"Blogging","icon":"<FaPhotoVideo />"},
+            {"label":"Cars","icon":"<FaCarSide />"}
+        ],
+        "address": "102 Old Site Bakakeng Baguio City."
+    }
+]
